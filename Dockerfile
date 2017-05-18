@@ -18,6 +18,7 @@ ENV LOGSTASH_PWD logstash
 ENV KIBANA_PWD kibana
 ENV KIBANA_USER_NAME kibana
 ENV KIBANA_USER_PWD kibana
+ENV ELASTIC_ADMIN_PWD changeme
 
 COPY es-entrypoint.sh /
 
